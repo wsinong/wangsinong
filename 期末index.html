@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>wansinongng-my website</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		.beijing{
+			background:#9b6d86 url(images/dt.png) no-repeat center;
+			height:700px;
+			overflow:hidden;
+		}
+		.bjzhongceng{
+			margin: 0 auto;
+			background:  url(images/welcome.png) no-repeat center;
+			height: 600px;
+			overflow: hidden;
+		}
+		.juzhong{
+			width: 1000px;
+			margin: 0 auto;
+			margin-top: 520px;
+		}
+		.info{
+			width: 443px;
+			margin:0 auto;
+			text-align: center;
+		}
+		.btn{
+			width: 215px;
+			height: 60px;
+			display: block;
+			background: #554b50;
+			border-radius: 35px;
+			color: #fff;
+			font-size: 23px;
+			text-align: center;
+			line-height: 65px;
+			text-decoration: none;
+			box-shadow: 0px 0px 20px 3px; /**发光效果：x,y,模糊半径，扩展半径，颜色**/
+			margin-top: 25px;
+			margin: 0 auto;
+        
+		}
+		.daohang{
+			margin: 0 auto;
+			background:#794662;
+			height: 68px;
+			overflow: hidden;
+			padding: 0;
+		}
+		.dhjuzhong{
+			width: 1000px;
+			margin:0 auto;
+			height: 68px;
+			padding: 0;
+			line-height: 68px;
+
+		}
+		.daohang li{
+			float: left;
+			list-style:none;
+			color: #fff;
+			text-align: center;
+            width: 250px;
+		}
+		.daohang li a{
+			color: #fff;
+			text-decoration: none;
+		}
+		.daohang li a:hover{
+			text-decoration: underline;
+			color: #434343;
+		}
+		.banshi1{
+			width: 1000px;
+			height: 1250px;
+			margin: 0 auto;
+			overflow: hidden;
+			padding: 0;
+			
+		}
+		.pzuoce{
+			float:left;
+			width: 440px;
+			height: 190px;
+			background:#fff url(images/bs1pi.png) no-repeat center;
+            margin: 0 auto;
+			margin-top: 135px;
+		}
+		.txyouce{
+			float: right;
+            width: 185px;
+			height: 185px;
+			background: #fff url(images/touxiang.png) no-repeat center;
+			margin: 0 auto;
+			margin-top: 85px;
+		}
+		.iamzuoce{
+			float: left;
+			margin-top: 90px;
+		}
+		.wsnyouce{
+			float: right;
+			text-align: right;
+			width: 120px;
+			margin-top: 0px;
+		}
+		.w1000{
+			width: 1000px;
+			overflow: hidden;
+		}
+		.pro{
+			float: left;
+			margin-top: 70px;
+			color: #5d2c47;
+			font-size: 30px;
+		}
+		.xian1{
+			float: right;
+            width: 1010px;
+			height: 5px;
+			background:#fff url(images/xian1.png) no-repeat center;
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+		.zyjnyouce{
+			color: #5d2c47;
+			margin-top: 90px;
+			float: right;
+			text-align: right;
+			width: 120px;
+		}
+		.zyjntupian{
+			width: 1000px;
+			height: 200px;
+			margin: 0 auto;
+			overflow: hidden;
+			background: #fff url(images/zyjn.png) no-repeat center;
+			padding: 0;
+		}
+		.hob{
+			float: left;
+			margin-top: 70px;
+			color: #5d2c47;
+			font-size: 30px;
+		}
+		.xian2{
+			float: right;
+            width: 1015px;
+			height: 5px;
+			background:#fff url(images/xian2.png) no-repeat center;
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+		.xpahyouce{
+			color: #5d2c47;
+			margin-top: 90px;
+			float: right;
+			text-align: right;
+			width: 120px;
+		}
+		.xpahtupian{
+			width: 1000px;
+			height: 200px;
+			margin: 0 auto;
+			overflow: hidden;
+			background: #fff url(images/xpah.png) no-repeat center;
+			padding: 0;
+        }
+		.banshi2{
+			overflow:hidden;
+			width: 100%;
+			height: 1050px;
+			background:#dcdcdc;
+			margin: 0 auto;
+			padding: 0;
+		}
+		.bs2zuoce{
+			margin-top: 25px;
+			float: left;
+			width: 500px;
+		}
+		.bs2ouce{
+			margin-top: 25px;
+			margin-left: 10px;
+			float: left;
+			width: 500px;
+			height: 1000px;
+		}
+		.w2000{
+			width: 1000px;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+		.workzuoce{
+			float: left;
+			width: 620px;
+			height: 130px;
+			background:#dcdcdc url(images/bs2pw.png) no-repeat center;
+			margin: 0 auto;
+			margin-top: 80px;
+		}
+		.graphic{
+			color: #b38aa0;
+			margin-top: 50px;
+			float: left;
+			text-align: left;
+			font-size: 30px;
+			width: 1000px;
+		}
+		.tuxsheji{
+			color: #515151;
+			margin-top: 30px;
+			float: left;
+			text-align: left;
+			width: 500px;
+        }
+		.nrzuoce li{
+			float: left;
+			margin-top: 10px;
+			color: #515151;
+			font-size: 10px;
+			text-align: left;
+			width: 300px;
+			list-style: none;
+		}
+		.tp1youce{
+			float: right;
+            width: 495px;
+			height: 185px;
+			background: #dcdcdc url(images/tp1.png) no-repeat center;
+			margin: 0 auto;
+			margin-top: 80px;
+		}
+		.tp2zuoce{
+			float: left;
+            width: 495px;
+			height: 185px;
+			background: #dcdcdc url(images/tp2.png) no-repeat center;
+			margin: 0 auto;
+			margin-top: 80px;
+		}
+		.tp3youce{
+			float: right;
+            width: 495px;
+			height: 185px;
+			background: #dcdcdc url(images/tp3.png) no-repeat center;
+			margin: 0 auto;
+			margin-top: 80px;
+		}
+		.banshi3{
+			overflow: hidden;
+			width: 1000px;
+			height: 950px;
+			background:#fff;
+			margin: 0 auto;
+			padding: 0;
+		}
+		.w3000{
+			width: 1000px;
+			overflow: hidden;
+		}
+		.bs3zuoce{
+			margin-top: 40px;
+			float: right;
+			width: 500px;
+		}
+		.bs3youce{
+			margin-top: 40px;
+			float: right;
+			width: 500px;
+
+		}
+		.coimde{
+			color: #b38aa0;
+			margin-top: 80px;
+			float: right;
+			text-align: right;
+			font-size: 30px;
+			width: 500px;
+		}
+		.qyxxsj{
+			color: #515151;
+			margin-top: 10px;
+			float: right;
+			text-align: right;
+			width: 500px;
+        }
+        .qywz li{
+        	float: right;
+			list-style: none;
+			margin-top: 40px;
+			color: #515151;
+			font-size: 10px;
+			text-align: right;
+			width: 400px;
+			
+		}
+		.qytup1{
+			float: right;
+            width: 495px;
+			height: 250px;
+			background: #fff url(images/qytup1.png) no-repeat center;
+			margin: 0 auto;
+			margin-top: 80px;
+		}
+		.qytup2{
+			float: left;
+            width: 495px;
+			height: 250px;
+			background: #fff url(images/qytup2.png) no-repeat center;
+			margin: 0 auto;
+			margin-top: 100px;
+		}
+		.qytup3{
+			float: right;
+            width: 495px;
+			height: 250px;
+			background: #fff url(images/qytup3.png) no-repeat center;
+			margin: 0 auto;
+			margin-top: 110px;
+		}
+		.banshi4{
+			overflow: hidden;
+			width: 100%;
+			height: 625px;
+			background:#dcdcdc;
+			margin: 0 auto;
+			padding: 0;
+		}
+		.w4000{
+			width: 1000px;
+			height: 625px;
+			overflow: hidden;
+			margin: 0 auto;
+		}	
+		.bs4zuoce{
+			margin-top: 25px;
+			float: left;
+			width: 680px;
+		}
+		.pade{
+			color: #b38aa0;
+			margin-top: 80px;
+			float: left;
+			text-align: left;
+			font-size: 30px;
+			width: 1000px;
+		}
+		.bzsj{
+			color: #515151;
+			margin-top: 10px;
+			float: left;
+			text-align: left;
+			width: 1000px;
+			margin-bottom: 40px;
+		}
+		.bzwenzi li{
+			
+			list-style: none;
+			margin-top: 40px;
+			color: #515151;
+			font-size: 10px;
+			text-align: left;
+			width: 400px;
+		}
+		.bs4youce{
+			margin-top: 25px;
+			float: left;
+			width: 320px;
+		}
+		.bztup1{
+			float: right;
+            width: 300px;
+			height: 500px;
+			background: #dcdcdc url(images/bztup1.png) no-repeat center;
+			margin: 0 auto;
+			margin-top: 40px;
+		}
+		.banshi5{
+			width: 1000px;
+			height: 320px;
+			background:#fff ;
+			margin: 0 auto;
+		}
+		.wmacm{
+			float: left;
+			list-style: none;
+			margin-top: 80px;
+			color: #b38aa0;
+			font-size: 50px;
+			text-align: left;
+			width: 600px;
+		}
+		.banshi6{
+			width: 100%;
+			height: 340px;
+			background:#e2d1dc url(images/dibutup.png) no-repeat center;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.w6000{
+			width: 1000px;
+			overflow: hidden;
+			margin: 0 auto;
+			height: 100px;
+			margin-top:200px;
+
+		}
+		.zuidiwz li{
+			list-style: none;
+			margin-top: 100px;
+			margin-bottom: 50px;
+			color: #515151;
+			font-size: 15px;
+			text-align: center;
+			width: 600px;
+			margin: 0 auto;
+		}
+	</style>
+	<link href='http://cdn.webfont.youziku.com/webfonts/nomal/112343/46818/5a41b458f629d91984d8e0cd.css' rel='stylesheet' type='text/css' />
+	<link href='http://cdn.webfont.youziku.com/webfonts/nomal/112343/46865/5a41b9c4f629d91984d8e0f7.css' rel='stylesheet' type='text/css' />
+	<link href='http://cdn.webfont.youziku.com/webfonts/nomal/112343/46861/5a49ae3bf629d810945cabbb.css' rel='stylesheet' type='text/css' />
+	<link href='http://cdn.webfont.youziku.com/webfonts/nomal/112343/47551/5a49af38f629d810945cabbc.css' rel='stylesheet' type='text/css' />
+	<link href='http://cdn.webfont.youziku.com/webfonts/nomal/112343/46870/5a49b513f629d810945cabc1.css' rel='stylesheet' type='text/css' />
+	<link href='http://cdn.webfont.youziku.com/webfonts/nomal/112343/46861/5a49d077f629d810945cac18.css' rel='stylesheet' type='text/css' />
+	<link href='http://cdn.webfont.youziku.com/webfonts/nomal/112343/46870/5a49d2fff629d810945cac25.css' rel='stylesheet' type='text/css' />
+	<link href='http://cdn.webfont.youziku.com/webfonts/nomal/112343/46861/5a49dd86f629d810945cac3d.css' rel='stylesheet' type='text/css' />
+	<link href='http://cdn.webfont.youziku.com/webfonts/nomal/112343/46870/5a49e097f629d810945cac41.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+	<div class="beijing">
+		<div class="bjzhongceng">
+			<div class="juzhong">
+	    		<div class="info">
+	    	       <a href="#" class="btn">CONTACT US</a>
+	    		</div>
+	        </div>
+		</div>
+	</div>
+	<div class="daohang"> 
+		<div class="dhjuzhong">
+			<a href="#geren" class="logo"></a>
+			<ul class="dhjuzhong">
+				<li>首页</li>
+				<li><a href="#geren" target="_blank"></a>个人</li>
+				<li>作品</li>
+				<li>联系</li>
+			</ul>
+		</div>
+	</div>
+	<div class="banshi1">
+		<div class="w1000">
+			<div name="geren"></div>
+             <div class="pzuoce">
+		     </div>
+		     <div class="txyouce">
+		     </div>			
+		</div>
+		<div class="w1000">
+		     <div class="iamzuoce cssf35d1c1181b6d7" >
+		        I AM A STUDENT OF VISUAL COMMUNICATION GRAPHIC DESIGN .
+		     </div>
+		     <div class="wsnyouce cssf35d1c1181b6d7">
+		     	<span class="cssf35e6ef941b6d7">王思侬</span>
+		     	wangsinong 
+		     	AI&PS
+		     	Shandong
+		     </div>
+	 	</div>
+	 	<div class="w1000">
+	 		<div class="pro cssf35d1c1181b6d7">
+	 			PROFESSIONAL SKILLS
+	 		</div>
+	 		<div class="zyjnyouce cssf35d1c1181b6d7">
+	 			<span class="cssf35e6ef941b6d7">专业技能</span>
+	 		</div>
+	 		<div class="xian1">
+	 		</div>
+	 		<div class="zyjntupian">
+	 		</div>
+	 	</div>
+	 	<div class="w1000">
+	 		<div class="hob cssf35d1c1181b6d7">
+	 			HOBBIES
+	 		</div>
+	 		<div class="xpahyouce cssf35d1c1181b6d7">
+	 			<span class="cssf35e6ef941b6d7">兴趣爱好</span>
+	 		</div>
+	 		<div class="xian2">
+	 		</div>
+	 		<div class="xpahtupian">
+	 		</div>
+	 	</div>
+	</div>
+	<div class="banshi2">
+		<div class="w2000">
+		    <div class="workzuoce"></div>
+		    <div class="bs2zuoce">
+	            <div class="graphic cssf54fdbb6c1b6d7">
+	    		    GRAPHIC DESIGN
+	    	    </div>
+	    	    <div class="tuxsheji cssf54f9def51b6d7">
+	    		   <span class="cssf54f9def51b6d7">图形设计</span>
+	    	    </div>
+	    	    <div class="nrzuoce cssf55149bfd1b6d7">
+	    		     <ul class="nrzuoce"> 
+	    			    <li>设计主题：中式婚礼和西式婚礼的基本区别。</li>
+	    		        <li>主题的目的：让人们可以直观的了解中式婚礼和西式婚礼的不同。这样图形化简单易懂，更加形象。</li>
+	    		        <li>展示方式：以婚礼流程为主轴，将比较有代表性的环节用矢量图来展示。</li>
+	    		    </ul>
+	    	    </div>
+	    	</div>
+	        <div class="tp1youce"></div>
+	    </div>
+
+		<div class="bs2youce">
+			<div class="w2000">
+    	        <div class="tp2zuoce"></div>
+    	        <div class="tp3youce"></div>
+            </div>
+		</div>
+	</div>
+	<div class="banshi3">
+	    <div class="w3000">
+	    	<div class="bs3zuoce">
+	    	    <div class="coimde cssf54fdbb6c1b6d7">CORPORATE IMAGE DESIGN</div>
+	    	    <div class="qyxxsj cssf557f9acc1b6d7">
+	    		    <span class="cssf557f9acc1b6d7">企业形象设计</span>
+	    	    </div>
+	    	    <div class="qywz cssf55897cf31b6d7">
+	    		    <ul class="qywz">
+	    			    <li>设计主题： 白吉顺酒业有限公司</li>
+	    			    <li>企业形象设计视觉识别手册内容包括：企业理念、标识结构、基础系统、企业标识系统、企业策划</li>
+	    			    <li>衍生品展示方式：名片、信纸、印章、文件夹、私人定制酒瓶等</li>
+	    		    </ul>
+	    	    </div>
+	    	    <div class="qytup3">	    		
+	    	    </div>
+	    	</div>  
+	    	<div class="bs3youce">
+	    		<div class="w3000"></div>
+	    		<div class="qytup1"></div>
+	            <div class="w3000"></div>
+	    	    <div class="qytup2"></div>
+	    	</div> 
+	    </div>	
+	</div>
+	<div class="banshi4">	
+	        <div class="w4000">
+	    	<div class="bs4zuoce">
+	    	    <div class="pade cssf54fdbb6c1b6d7">	 
+	    	    PACKAGE DESIGN   		
+	    	    </div>
+	    	    <div class="bzsj cssf55b29c891b6d7">
+	    		    <span class="cssf55b29c891b6d7">包装设计</span>    		
+	    	    </div>
+	    	    <div class="bzwenzi cssf55be96161b6d7">
+	    		    <ul class="bzwenzi">
+	    			<li>设计主题：
+	    			设计二十岁左右的女生运动休闲鞋的鞋盒包装设计</li>
+	    			<li>关于产品：
+	    			面对年轻女大学生的产品，价格合理，款式时尚新颖颜色青春、舒适简单的运动休闲鞋</li>
+	    			<li>关于此产品的包装：
+	    		    打破以往的长方形鞋盒的外形，用正六边形作为盒子的基本形体。正六边形方便运输和摆放，特殊的包装外形可以更吸引年轻的消费群体</li>
+	    			<li>总结：
+	    			在这个“看脸”的时代，外表不吸引人就会有被淘汰的危险，产品的质量和样式同样重要，但是让人第一眼就记住还是很困难，所以包装设计尤为重要，打破传统样式，要往创新性功能于一体的方向发展</li>
+	    		    </ul>	    	   
+	    	    </div>
+	    	</div>
+	    	<div class="bs4youce">
+	    	    <div class="bztup1"></div>
+	    	</div>    
+	    </div>	
+	</div>
+	<div class="banshi5">
+	    <div class="wmacm cssf54fdbb6c1b6d7">
+	    	WATCH ME AND 
+            CONTACT ME
+	    </div>	
+	</div>
+	<div class="banshi6">
+	    <div class="w6000">
+	    	<div class="zuidiwz cssf35d1c1181b6d7">
+	    		<ul class="zuidiwz">
+	    			<li>Copyright ©2018.All Rights Reserved</li>
+	    			<li>Made With Love By @wasinongng</li>
+	    		</ul>
+	        </div>
+	    </div>
+	</div>
+</body>
+</html>
